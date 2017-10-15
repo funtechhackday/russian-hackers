@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/_SCENES/StartMenu.unity
+  isLoaded: 1
+  isActive: 1

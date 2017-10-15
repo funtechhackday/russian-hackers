@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 7b17a7bb64243b04c82b5377a32eb6bc
+timeCreated: 1507985512
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: soviet font
+  fontNames:
+  - soviet font
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

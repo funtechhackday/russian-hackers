@@ -1,12 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RussianHackers", "RussianHackers.csproj", "{EA474499-215F-7A5D-6CF5-5B65DE9CA928}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RussianHackers.Editor.Plugins", "RussianHackers.Editor.Plugins.csproj", "{310FF597-85DF-9527-CDCC-E6D1DC2A7D1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA474499-215F-7A5D-6CF5-5B65DE9CA928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA474499-215F-7A5D-6CF5-5B65DE9CA928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA474499-215F-7A5D-6CF5-5B65DE9CA928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA474499-215F-7A5D-6CF5-5B65DE9CA928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{310FF597-85DF-9527-CDCC-E6D1DC2A7D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310FF597-85DF-9527-CDCC-E6D1DC2A7D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310FF597-85DF-9527-CDCC-E6D1DC2A7D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310FF597-85DF-9527-CDCC-E6D1DC2A7D1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

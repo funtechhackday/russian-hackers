@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 4484a553549e6304081cb6883e6b5f4c
+timeCreated: 1507985512
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Cellblock NBP
+  fontNames:
+  - Cellblock NBP
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

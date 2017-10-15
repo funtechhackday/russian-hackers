@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Symbols
+    uniqueID: 3386201055
+    locked: 0
+  - name: Dialog
+    uniqueID: 2353390703
+    locked: 0
