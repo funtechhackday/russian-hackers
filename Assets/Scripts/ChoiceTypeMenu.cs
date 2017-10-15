@@ -31,14 +31,26 @@ namespace DefaultNamespace
         private bool isAttempts = false;
 		private bool a_Infinity;
 
+		void LoadTutorial() {
+			Application.LoadLevel (2);
+		}
+
 		public void OnMenu(bool on) { // меню
-			if (on) {
+			if (PlayerPrefs.GetInt ("first") == 0) {
+				PlayerPrefs.SetInt ("first", 1);
 				mainMenu.Play ("menu(diactive)");
-				typeGame.Play ("mode(active)");
+				Invoke ("LoadTutorial", 0.5f);
 			} else {
-				mainMenu.Play ("menu(active2)");
-				typeGame.Play ("mode(diactive)");
+				if (on) {
+					mainMenu.Play ("menu(diactive)");
+					typeGame.Play ("mode(active)");
+				} else {
+					mainMenu.Play ("menu(active2)");
+					typeGame.Play ("mode(diactive)");
+				}
 			}
+
+
 		}
 
 		public ChoiceTypeMenu() {

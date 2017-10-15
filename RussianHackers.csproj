@@ -80,7 +80,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ChoiceTypeMenu.cs" />
     <Compile Include="Assets\Scripts\ComplexitySlider.cs" />
-    <Compile Include="Assets\Scripts\Dialog.cs" />
+    <Compile Include="Assets\Scripts\Dialogue.cs" />
+    <Compile Include="Assets\Scripts\Dialogue1.cs" />
+    <Compile Include="Assets\Scripts\DialogueManager.cs" />
     <Compile Include="Assets\Scripts\DragHandeler.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
